@@ -1,0 +1,21 @@
+h1 {
+    font-family: "Montserrat";
+}
+
+p {
+    font-family: "Open Sans";
+}
+
+body {
+    background-image: url("assets/bckgrnd.png");
+}
+
+main {
+    background-color: rgba(150, 150, 150, 0.6);
+}
+
+#profile-pic {
+    border: 3px #2c5fa8;
+    width: 200px;
+    border-radius: 100px;
+}
