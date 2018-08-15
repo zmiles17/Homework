@@ -1,5 +1,7 @@
 h1 {
     font-family: "Montserrat";
+    font-weight: normal;
+    margin-left: 20px;
 }
 
 div {
@@ -8,6 +10,7 @@ div {
 
 body {
     background-image: url("assets/bckgrnd.png");
+    background-repeat: repeat;
 }
 
 #top, #bottom {
@@ -29,32 +32,53 @@ body {
 }
 
 #profile-pic {
-    border: 3px #2c5fa8;
+    border: 3px solid #2c5fa8;
     width: 200px;
     border-radius: 100px;
+    margin-left: 20px;
 }
 
 #gaming {
     height: 150px;
     width: 250px;
+    margin-left: 100px;
 }
 
 #random {
     height: 150px;
     width: 250px;
+    margin-left: 100px;
 }
 
 #graffiti {
     height: 150px;
     width: 250px;
+    margin-left: 100px;
 }
 
 footer {
-    border-top-color: white;
-    margin: auto;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #jobtitle {
     font-weight: bold;
+    font-family: "Montserrat";
+    margin-left: 20px;
 }
 
+.footer {
+    text-align: center;
+}
+
+.github, .linkedin, .email, .stack {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
