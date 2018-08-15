@@ -2,7 +2,7 @@ h1 {
     font-family: "Montserrat";
 }
 
-p {
+div {
     font-family: "Open Sans";
 }
 
@@ -10,8 +10,22 @@ body {
     background-image: url("assets/bckgrnd.png");
 }
 
-main {
+#top, #bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+
+#top {
+    top: 0;
+    color: #333333;
+}
+
+#bottom {
     background-color: rgba(150, 150, 150, 0.6);
+    bottom: 0;
+    color: #FFFFFF;
 }
 
 #profile-pic {
@@ -19,3 +33,28 @@ main {
     width: 200px;
     border-radius: 100px;
 }
+
+#gaming {
+    height: 150px;
+    width: 250px;
+}
+
+#random {
+    height: 150px;
+    width: 250px;
+}
+
+#graffiti {
+    height: 150px;
+    width: 250px;
+}
+
+footer {
+    border-top-color: white;
+    margin: auto;
+}
+
+#jobtitle {
+    font-weight: bold;
+}
+
