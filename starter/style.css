@@ -1,7 +1,7 @@
 h1 {
     font-family: "Montserrat";
     font-weight: normal;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 div {
@@ -14,7 +14,7 @@ body {
 }
 
 #top, #bottom {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     height: 50%;
@@ -35,7 +35,11 @@ body {
     border: 3px solid #2c5fa8;
     width: 200px;
     border-radius: 100px;
-    margin-left: 20px;
+    position: absolute; 
+    z-index: 1;
+    right: 100px;
+    top: 350px;
+     
 }
 
 #gaming {
@@ -61,14 +65,14 @@ footer {
     border-bottom: 2px solid white;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #jobtitle {
     font-weight: bold;
     font-family: "Montserrat";
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .footer {
@@ -76,9 +80,14 @@ footer {
 }
 
 .github, .linkedin, .email, .stack {
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
-p {
-    margin-left: 20px;
+.p1, .p2 {
+    margin-left: 100px;
+    margin-right: 1000px;
+}
+
+.github {
+    margin-left: 100px;
 }
