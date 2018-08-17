@@ -80,7 +80,7 @@ footer {
 }
 
 .github, .linkedin, .email, .stack {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .p1, .p2 {
@@ -90,4 +90,8 @@ footer {
 
 .github {
     margin-left: 100px;
+}
+
+nav {
+    margin-bottom: 125px;
 }
