@@ -1,0 +1,98 @@
+h1 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+div {
+    font-family: "Open Sans";
+}
+
+body {
+    background-image: url("assets/bckgrnd.png");
+    background-repeat: repeat;
+}
+
+#top, #bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+
+#top {
+    top: 0;
+    color: #333333;
+}
+
+#bottom {
+    background-color: rgba(150, 150, 150, 0.6);
+    bottom: 0;
+    color: #FFFFFF;
+}
+
+#profile-pic {
+    border: 3px solid #2c5fa8;
+    width: 200px;
+    border-radius: 100px;
+    position: absolute; 
+    z-index: 1;
+    right: 100px;
+    top: 350px;
+     
+}
+
+#gaming {
+    height: 150px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+#random {
+    height: 150px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+#graffiti {
+    height: 150px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+footer {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#jobtitle {
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-left: 100px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.github, .linkedin, .email, .stack {
+    margin-left: 20px;
+}
+
+.p1, .p2 {
+    margin-left: 100px;
+    margin-right: 1000px;
+}
+
+.github {
+    margin-left: 100px;
+}
+
+nav {
+    margin-bottom: 125px;
+    margin-top: 50px;
+}
