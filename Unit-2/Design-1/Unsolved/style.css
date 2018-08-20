@@ -19,18 +19,25 @@ h1 {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: (4, 1fr);
+    grid-template-rows: (8, 1fr);
 }
 .box {
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 50px 200px;
+    grid-template-rows: 50px auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 .header {
-    grid-row: span 1;
-    grid-column: span 1;
+    font-family: EB Garamond;
+    border-bottom: dotted black 5px;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 580px;
 }
 .img {
-    grid-row: span 1;
-    grid-column: span 1;
+    height: 300px;
 }
