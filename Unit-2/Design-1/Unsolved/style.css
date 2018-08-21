@@ -18,16 +18,18 @@ h1 {
 }
 main {
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: (8, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 10px;
+    margin-right: 20px;
 }
 .box {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: 50px auto;
     margin-left: 10px;
-    margin-right: 10px;
-    width: 50%;
+    margin-right: 20px;
+    width: 100%;
 }
 
 .header {
@@ -49,7 +51,7 @@ main {
 }
 img {
     width: 100%;
-    top: -50%;
+    top: -120%;
     position: absolute;
     height: 840px;
 }
