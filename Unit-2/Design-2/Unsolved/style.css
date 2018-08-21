@@ -1,14 +1,41 @@
+body {
+    background-color: rgb(100, 100, 100);
+}
 header {
     font-family: 'Sonsie One';
     font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 main {
     display: grid;
     grid-template-areas: 
-    ".a"
+    
     ".b" ".c"
     ".d" ".e"
     ".f" ".g"
     ".h" ".i"
     ".j";
+    justify-content: center;
+    position: relative;
+}
+img {
+    border: rgb(100, 100, 100) 5px solid;
+    border-radius: 25px;
+    height: 150px;
+    width: 300px;
+}
+.a {
+    justify-self: center;
+    grid-column: span 2;
+}
+@media only screen and (min-width: 768px)
+and (max-width: 1366px) {
+    main {
+        display: grid;
+        grid-template-areas: 
+        ".a .b .c .d"
+    }
 }
