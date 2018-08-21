@@ -1,0 +1,14 @@
+header {
+    font-family: 'Sonsie One';
+    font-size: 30px;
+}
+main {
+    display: grid;
+    grid-template-areas: 
+    ".a"
+    ".b" ".c"
+    ".d" ".e"
+    ".f" ".g"
+    ".h" ".i"
+    ".j";
+}
