@@ -55,3 +55,10 @@ img {
     position: absolute;
     height: 840px;
 }
+@media only screen and (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
