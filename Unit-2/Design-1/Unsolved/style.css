@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+.Pierre {
+    font-family: "Oswald";
+    font-size: 40px;
+    color: white;
+}
+.Fansy {
+    color: white;
+    font-family: "Sonsie One";
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+h1 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 10px;
+    margin-right: 20px;
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.header {
+    font-family: EB Garamond;
+    border-bottom: dotted black 5px;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+    
+}
+.img {
+   height: 300px;
+   overflow: hidden;
+   position: relative;
+   width: 100%;
+    
+}
+img {
+    width: 100%;
+    top: -120%;
+    position: absolute;
+    height: 840px;
+}
+@media only screen and (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
