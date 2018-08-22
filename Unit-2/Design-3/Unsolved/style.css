@@ -11,20 +11,23 @@ header {
 }
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 45% 55%;
+    grid-auto-rows: min-content;
     position: relative;
     justify-content: center;
     grid-gap: 10px;
 }
 .happy {
     font-family: "Montserrat";
-    font-size: 50px;
+    font-size: 60px;
     background-color: red;
     color: white;
     font-weight: bold;
-    text-align: center;
-    padding-top: 250px;
+    padding-top: 150px;
+    overflow-wrap: break-word;
+    padding-left: 30px;
+    line-height: 1.75;
+    grid-row: span 2;
 }
 .lorem {
     background-color: rgb(48, 158, 140);
@@ -33,7 +36,26 @@ main {
     font-size: 25px;
     line-height: 2;
     font-weight: bold;
+    overflow-wrap: break-word;
+    padding-left: 30px;
+    padding-top: 10px;
+    grid-row: span 2;
 }
 .tie {
     grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-row: span 1;
+    
+}
+img {
+    position: relative;
+    zoom: 125%;
+}
+.moped {
+    grid-column: span 2;
+}
+.sax, .flower, .light, #forty {
+    visibility: hidden;
 }
