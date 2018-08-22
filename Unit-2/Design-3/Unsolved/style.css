@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(59, 28, 30);
+    margin: 2em;
+}
+header {
+    color: white;
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    position: relative;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.happy {
+    font-family: "Montserrat";
+    font-size: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 250px;
+}
+.lorem {
+    background-color: rgb(48, 158, 140);
+    font-family: "Source Sans Pro";
+    color: white;
+    font-size: 25px;
+    line-height: 2;
+    font-weight: bold;
+}
+.tie {
+    grid-column: span 2;
+}

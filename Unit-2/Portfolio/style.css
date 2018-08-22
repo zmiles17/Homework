@@ -43,8 +43,7 @@ body {
     position: absolute; 
     z-index: 1;
     right: 100px;
-    top: 350px;
-     
+    bottom: 400px;
 }
 
 #gaming {
@@ -102,4 +101,16 @@ footer {
 nav {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+    main {
+        display: grid;
+        grid-template-areas:
+        "#profile-pic"
+        "#top"
+        "#bottom"
+    }
+    #profile-pic {
+        position: relative;
+    }
 }
