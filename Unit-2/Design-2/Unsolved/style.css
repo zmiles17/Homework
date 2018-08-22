@@ -35,7 +35,21 @@ img {
 and (max-width: 1366px) {
     main {
         display: grid;
-        grid-template-areas: 
-        ".a .b .c .d"
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .a {
+        justify-self: left;
+        grid-column: span 1;
+    }
+}
+@media only screen and (min-width: 1366px){
+    main {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .a {
+        justify-self: left;
+        grid-column: span 1;
     }
 }
