@@ -12,7 +12,6 @@ header {
 main {
     display: grid;
     grid-template-columns: 45% 55%;
-    grid-auto-rows: min-content;
     position: relative;
     justify-content: center;
     grid-gap: 10px;
@@ -44,18 +43,28 @@ main {
 .tie {
     grid-column: span 2;
     overflow: hidden;
-    position: relative;
     width: 100%;
     grid-row: span 1;
-    
+    object-fit: fill;
 }
-img {
-    position: relative;
-    zoom: 125%;
-}
+
 .moped {
+    object-fit: fill;
     grid-column: span 2;
 }
 .sax, .flower, .light, #forty {
     visibility: hidden;
+}
+.sign {
+    object-fit: fill;
+    grid-row: span 2;
+    
+    overflow: hidden;
+}
+#sign {
+    height: 500px;
+}
+#moped {
+    overflow: hidden;
+    width: 100%;
 }
