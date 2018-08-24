@@ -19,13 +19,13 @@ main {
     ".h" ".i"
     ".j";
     justify-content: center;
-    position: relative;
+    grid-gap: 5px;
+    margin: 50px auto;
 }
 img {
-    border: rgb(100, 100, 100) 5px solid;
     border-radius: 25px;
-    height: 150px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
 }
 .a {
     justify-self: center;
@@ -35,11 +35,18 @@ img {
 and (max-width: 1366px) {
     main {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
     }
-    .a {
-        justify-self: left;
+    img {
+        grid-column: span 2;
+    }
+    div {
+        grid-column: span 2;
+    }
+    .empty {
         grid-column: span 1;
     }
 }

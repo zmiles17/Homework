@@ -105,12 +105,11 @@ nav {
 @media only screen and (max-width: 600px) {
     main {
         display: grid;
-        grid-template-areas:
-        "#profile-pic"
-        "#top"
-        "#bottom"
+        grid-template-rows: repeat(2, 1fr);
     }
-    #profile-pic {
-        position: relative;
+    .p1, .p2 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 }
